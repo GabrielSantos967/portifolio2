@@ -156,3 +156,42 @@ h2{
     color: #4B5563;
 }
 
+.Sprojeto{
+    display: flex;
+    width: auto;
+    height: 600px;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.projeto{
+    display: flex;
+    width: auto;
+    height: 500px;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card{
+    display: flex;
+    width: 350px;
+    height: 400px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.582);
+    transition: 0.5s;
+}
+
+.card:hover{
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.582);
+}
+
+.cardimg{
+    border-radius: 30px;
+}
+
+img{
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+}
