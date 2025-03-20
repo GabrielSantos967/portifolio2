@@ -208,3 +208,70 @@ h2{
     height: 50px;
     background-color: #F9FAFB;
 }
+
+@media (max-width: 390px){
+    .title{
+        width: 390px;
+    }
+    h2{
+        width: 390px;
+    }
+
+    .img img{
+        width: 370px;
+        height: 500px;
+    }
+    .img{
+        height: auto;
+    }
+
+    .about{
+        width: 370px;
+        flex-direction: column;
+        height: auto;
+    }
+
+    .desc{
+        width: 390px;
+        padding: 10px;
+        justify-content: center;
+        height: auto;
+    }
+
+    .Sabout{
+        height: auto;
+        width: 390px;
+        justify-content: center;
+    }
+
+    .grid{
+        width: 240px;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .bloc{
+        width: 120px;
+    }
+
+    .Sprojeto{
+        width: 390px;
+        height: auto;
+    }
+
+    .projeto{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+    }
+}
+
+@media (max-width: 1024px){
+    .grid{
+        width: 512px;
+    }
+
+    .bloc{
+        width: 250px;
+    }
+}
