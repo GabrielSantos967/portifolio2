@@ -232,30 +232,36 @@ h2{
     }
 
     .desc{
-        width: 390px;
+        width: 100%;
         padding: 10px;
         justify-content: center;
         height: auto;
+        border: 1px solid blue;
     }
 
     .Sabout{
         height: auto;
-        width: 390px;
+        width: 100%;
         justify-content: center;
     }
 
     .grid{
-        width: 240px;
-        flex-direction: column;
-        text-align: center;
+        display: grid;
+        max-width: 90%;
+        margin: auto;
+        grid-template-columns: repeat(2, minmax(150px, 1fr));
+        justify-content: center;
+        align-items: center;
+        height: auto;
     }
 
     .bloc{
-        width: 120px;
+        max-width: 100px;
+        overflow: hidden;
     }
 
     .Sprojeto{
-        width: 390px;
+        width: 100%;
         height: auto;
     }
 
